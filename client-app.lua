@@ -1,6 +1,5 @@
 #!/usr/bin/lua
 
 print("============> Hello, World <============!")
-function sleep(n)
-  os.execute("sleep " .. tonumber(10))
-end
+local start = os.clock()
+while os.clock() - start < 5 do end
