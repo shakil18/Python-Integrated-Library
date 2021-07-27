@@ -1,7 +1,7 @@
 import sys
 
 # To add library instead installing on the system
-LIBRARY_PATH = "/home/shakil/PycharmProjects/test_library"
+LIBRARY_PATH = "/home/client-app/repo"
 sys.path.append(LIBRARY_PATH)
 
 import requests as req
