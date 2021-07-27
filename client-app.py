@@ -10,4 +10,4 @@ resp = req.get("http://www.webcode.me")
 print(f"============> HTTP Response messeage for 'http://www.webcode.me': {resp.status_code} <============")
 
 resp = req.get("http://www.webcode.me/news")
-print(f"=
+print(f"============> HTTP Response messeage for 'http://www.webcode.me/news': {resp.status_code} <============")
